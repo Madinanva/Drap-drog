@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 22% !important;
+     height: 200px;
+     background-color: pink;
+     border: 2px solid black;
+     cursor: move;
+}
+
+#droparea{
+    width: 100%;
+    height: 300px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 12px inset #000;
+    display: flex;
+    justify-content: space-between;
+}
